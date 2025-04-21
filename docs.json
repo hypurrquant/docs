@@ -9,7 +9,7 @@
     "dark": "#15803D"
   },
   "appearance": {"default": "dark"},
-  "favicon": "/logo/favicon.svg",
+  "favicon": "/logo/favicon.png",
   "navigation": {
         "groups": [
           {
@@ -51,9 +51,21 @@
               "tokenomics_roadmap/roadmap"
             ]
           }
-        ]
-      },
-  
+        ],
+        "global": {
+          "anchors": [
+            {
+              "anchor": "Community",
+              "icon" : "Telegram",
+              "href": "https://t.me/hypurrquant_official"
+            },
+            {
+              "anchor": "HypurrQuant Bot",
+              "icon" : "Robot",
+              "href": "https://t.me/hypurrQuant_bot"
+            }
+          ]}
+    },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
