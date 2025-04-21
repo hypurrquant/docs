@@ -11,9 +11,6 @@
   "appearance": {"default": "dark"},
   "favicon": "/symbol.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
         "groups": [
           {
             "group": "ABOUT HYPURRQUANT",
@@ -53,9 +50,7 @@
             ]
           }
         ]
-      }
-    ]
-  },
+      },
   
   "logo": {
     "light": "/logo/symbol.svg",
