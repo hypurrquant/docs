@@ -8,6 +8,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "appearance": {"default": "dark"},
   "favicon": "/symbol.svg",
   "navigation": {
     "tabs": [
@@ -15,94 +16,70 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "ABOUT HYPURRQUANT",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "about_hypurrquant/overview",
+              "about_hypurrquant/platform-architecture",
+              "about_hypurrquant/telegram-bot-features"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "BOT COMMANDS",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              {"group": "Spot Trading", "pages": [
+                "bot_commands/spot-buy-strategy",
+                "bot_commands/spot-sell",
+                "bot_commands/spot-buy"
+              ]},
+              {"group": "Perpetual Trading", "pages": [
+                "bot_commands/perp-open",
+                "bot_commands/perp-close"
+              ]},
+              {"group": "Wallet & Balance", "pages": [
+                "bot_commands/wallet",
+                "bot_commands/balance"
+              ]},
+              {"group": "Alarm & Copy Trading", "pages": [
+                "bot_commands/alarm",
+                "bot_commands/copy-trading"
+              ]}
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Tokenomics & Roadmap",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "tokenomics_roadmap/Tokenomics",
+              "tokenomics_roadmap/Roadmap"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://hypurrquant.com/",
-          "icon": "book-open"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://t.me/hypurrquant_official",
-          "icon": "Telegram"
-        },
-        {
-          "anchor": "Telegram Bot",
-          "href": "https://t.me/hypurrQuant_bot",
-          "icon": "bot"
-        },
-        {
-          "anchor": "Discord",
-          "href": "https://discord.com/invite/rVMHxC9jct",
-          "icon": "discord"
-        }
-      ]
-    }
+    ]
   },
+  
   "logo": {
     "light": "/logo/symbol.svg",
     "dark": "/logo/symbol.svg"
   },
   "navbar": {
+    
     "links": [
       {
+        "label": "HypurrQuant Bot",
+        "href": "https://t.me/hypurrQuant_bot"
+      },
+      {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hypurrquant.hik@gmail.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/hypurrquant",
+      "discord": "https://discord.com/invite/rVMHxC9jct",
+      "telegram": "https://t.me/hypurrquant_official",
+      "website" : "https://hypurrquant.com/"
     }
   }
 }
