@@ -9,7 +9,7 @@
     "dark": "#15803D"
   },
   "appearance": {"default": "dark"},
-  "favicon": "/symbol.svg",
+  "favicon": "/favicon.svg",
   "navigation": {
         "groups": [
           {
