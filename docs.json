@@ -1,13 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "HypurrQuant",
+  "description": "HypurrQuant is a trading utility and DeFi onboarding platform powered by Hyperliquid, offering Copy Trading, DCA, Delta Neutral Strategy Vault, Quant Trading features, and assisting with DeFi onboarding.",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/symbol.svg",
   "navigation": {
     "tabs": [
       {
@@ -58,26 +59,31 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website",
+          "href": "https://hypurrquant.com/",
+          "icon": "book-open"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://t.me/hypurrquant_official",
+          "icon": "Telegram"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Telegram Bot",
+          "href": "https://t.me/hypurrQuant_bot",
+          "icon": "bot"
+        },
+        {
+          "anchor": "Discord",
+          "href": "https://discord.com/invite/rVMHxC9jct",
+          "icon": "discord"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/symbol.svg",
+    "dark": "/logo/symbol.svg"
   },
   "navbar": {
     "links": [
