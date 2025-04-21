@@ -55,8 +55,8 @@
       },
   
   "logo": {
-    "light": "/logo/symbol.svg",
-    "dark": "/logo/symbol.svg"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "navbar": {
     
