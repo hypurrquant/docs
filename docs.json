@@ -22,7 +22,9 @@
           },
           {
             "group": "BOT COMMANDS",
+              
             "pages": [
+              "bot_commands/getting-Started",
               {"group": "Spot Trading", "pages": [
                 "bot_commands/spot-buy-strategy",
                 "bot_commands/spot-sell",
@@ -45,8 +47,8 @@
           {
             "group": "Tokenomics & Roadmap",
             "pages": [
-              "tokenomics_roadmap/Tokenomics",
-              "tokenomics_roadmap/Roadmap"
+              "tokenomics_roadmap/tokenomics",
+              "tokenomics_roadmap/roadmap"
             ]
           }
         ]
