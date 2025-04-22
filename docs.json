@@ -24,7 +24,7 @@
             "group": "BOT COMMANDS",
               
             "pages": [
-              "bot_commands/getting-Started",
+              "bot_commands/starting",
               {"group": "Spot Trading", "pages": [
                 "bot_commands/spot-buy-strategy",
                 "bot_commands/spot-sell",
@@ -73,10 +73,6 @@
   "navbar": {
     
     "links": [
-      {
-        "label": "HypurrQuant Bot",
-        "href": "https://t.me/hypurrQuant_bot"
-      },
       {
         "label": "Support",
         "href": "mailto:hypurrquant.hik@gmail.com"
