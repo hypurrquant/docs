@@ -16,6 +16,7 @@
             "group": "ABOUT HYPURRQUANT",
             "pages": [
               "about_hypurrquant/overview",
+              "about_hypurrquant/concept",
               "about_hypurrquant/platform-architecture",
               "about_hypurrquant/telegram-bot-features"
             ]
@@ -34,14 +35,14 @@
                 "bot_commands/perp_trading/perp-open",
                 "bot_commands/perp_trading/perp-close"
               ]},
-              {"group": "Wallet & Balance", "pages": [
-                "bot_commands/utils/wallet",
-                "bot_commands/utils/balance"
-              ]},
-              {"group": "Alarm & Copy Trading", "pages": [
+              {"group": "Tools", "pages": [
                 "bot_commands/tools/alarm",
                 "bot_commands/tools/copy-trading"
-              ]}
+                ]},
+              {"group": "Utils", "pages": [
+                  "bot_commands/utils/wallet",
+                  "bot_commands/utils/balance"
+                ]}
             ]
           },
           {
