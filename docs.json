@@ -24,23 +24,23 @@
             "group": "BOT COMMANDS",
               
             "pages": [
-              "bot_commands/starting",
+              "bot_commands/onboarding",
               {"group": "Spot Trading", "pages": [
                 "bot_commands/spot_trading/spot-buy-strategy",
-                "bot_commands/spot_trading/spot-sell",
-                "bot_commands/spot_trading/spot-buy"
+                "bot_commands/spot_trading/spot-buy",
+                "bot_commands/spot_trading/spot-sell"
               ]},
               {"group": "Perpetual Trading", "pages": [
                 "bot_commands/perp_trading/perp-open",
                 "bot_commands/perp_trading/perp-close"
               ]},
               {"group": "Wallet & Balance", "pages": [
-                "bot_commands/wallet/wallet",
-                "bot_commands/wallet/balance"
+                "bot_commands/utils/wallet",
+                "bot_commands/utils/balance"
               ]},
               {"group": "Alarm & Copy Trading", "pages": [
-                "bot_commands/utils/alarm",
-                "bot_commands/utils/copy-trading"
+                "bot_commands/tools/alarm",
+                "bot_commands/tools/copy-trading"
               ]}
             ]
           },

@@ -1,12 +1,12 @@
 ---
 title: "Platform Architecture"
-description: "Platform Architecture of HypurrQuant"
+description: "Platform architecture of HypurrQuant"
 ---
 
 
 ## Platform Architecture Overview
 
-![Platform Architecture](../images/arch1.png)
+![Platform Architecture](../images/introduce/arch1.png)
 
 The diagram below illustrates the full system architecture of the HypurrQuant platform.
 It shows how we’ve designed a **multi-AZ, private-subnet-based infrastructure**,
@@ -19,7 +19,7 @@ ensuring **maximum security, isolation, and encryption at every layer**.
 
 ### 1️⃣ **Bot Server Obfuscation**
 
-![Platform Architecture](../images/arch2.png)
+![Platform Architecture](../images/introduce/arch2.png)
 
 Even Telegram itself cannot identify the location of our Telegram Bot.
 We do not expose any open ports to the public, and communication is done **exclusively via polling through a NAT Gateway**.
@@ -29,7 +29,7 @@ As a result, the bot server is **never exposed externally**, and its location **
 
 ### 2️⃣ **Fully Isolated Service Deployment**
 
-![Platform Architecture](../images/arch3.png)
+![Platform Architecture](../images/introduce/arch3.png)
 
 All services are deployed **strictly within AWS Private Subnets**,  
 ensuring that **direct access from the internet or any external source is completely blocked**.  
@@ -47,7 +47,7 @@ To extract any user data, they must first overcome the following security barrie
 
 ### 3️⃣ **Strict Data Access Control & No Logging Policy**
 
-![Platform Architecture](../images/arch4.png)
+![Platform Architecture](../images/introduce/arch4.png)
 
 Access to the user data stored in our databases is strictly limited  
 to only the **Account Management Server** and the **Order Server**.  
@@ -59,7 +59,7 @@ This means that even if an attacker infiltrates the system,
 
 ### 4️⃣ **Asymmetric Encryption-Based Order Processing**
 
-![Platform Architecture](../images/arch5.png)
+![Platform Architecture](../images/introduce/arch5.png)
 
 User accounts are either generated internally or imported,
 and the private keys are **encrypted using asymmetric encryption (Public Key)**.
