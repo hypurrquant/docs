@@ -8,75 +8,91 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "appearance": {"default": "dark"},
+  "appearance": { "default": "light" },
   "favicon": "/logo/favicon.png",
   "navigation": {
-        "groups": [
+    "groups": [
+      {
+        "group": "HYPURRQUANT",
+        "icon" : "q",
+        "pages": [
+          "about_hypurrquant/overview",
+          "about_hypurrquant/platform-architecture"
+        ]
+      },
+      {
+        "group": "HypurrQuant BOT",
+        "icon" : "robot",
+        "pages": [
+          "bot_commands/overview",
+          "bot_commands/how-to-deposit",
           {
-            "group": "ABOUT HYPURRQUANT",
+            "group": "Spot Trading",
             "pages": [
-              "about_hypurrquant/overview",
-              "about_hypurrquant/concept",
-              "about_hypurrquant/platform-architecture",
-              "about_hypurrquant/telegram-bot-features"
+              "bot_commands/spot_trading/spot-buy-strategy",
+              "bot_commands/spot_trading/spot-buy",
+              "bot_commands/spot_trading/spot-sell"
             ]
           },
           {
-            "group": "BOT COMMANDS",
-              
+            "group": "Perpetual Trading",
             "pages": [
-              "bot_commands/onboarding",
-              {"group": "Spot Trading", "pages": [
-                "bot_commands/spot_trading/spot-buy-strategy",
-                "bot_commands/spot_trading/spot-buy",
-                "bot_commands/spot_trading/spot-sell"
-              ]},
-              {"group": "Perpetual Trading", "pages": [
-                "bot_commands/perp_trading/perp-open",
-                "bot_commands/perp_trading/perp-close"
-              ]},
-              {"group": "Tools", "pages": [
-                "bot_commands/tools/alarm",
-                "bot_commands/tools/copy-trading"
-                ]},
-              {"group": "Utils", "pages": [
-                  "bot_commands/utils/wallet",
-                  "bot_commands/utils/balance"
-                ]}
+              "bot_commands/perp_trading/perp-open",
+              "bot_commands/perp_trading/perp-close"
             ]
           },
           {
-            "group": "Tokenomics & Roadmap",
-            "pages": [
-              "tokenomics_roadmap/tokenomics",
-              "tokenomics_roadmap/roadmap"
-            ]
-          }
-        ],
-        "global": {
-          "anchors": [
-            {
-              "anchor": "Community",
-              "icon" : "Telegram",
-              "href": "https://t.me/hypurrquant_official"
-            },
-            {
-              "anchor": "HypurrQuant Bot",
-              "icon" : "Robot",
-              "href": "https://t.me/hypurrQuant_bot"
-            }
-          ]}
-    },
+            "group": "Utils",
+            "pages": ["bot_commands/utils/wallet", "bot_commands/utils/balance"]
+          },
+        
+          "bot_commands/tools/alarm",
+          "bot_commands/tools/copy-trading",
+          "bot_commands/tools/dca",
+          "bot_commands/tools/grid-trade",
+          "bot_commands/tools/delta-neutral"
+        ]
+      },
+      {
+        "group": "HyperCash",
+        "icon": "sack-dollar",
+        "pages": ["hypercash/tba"]
+      },
+      {
+        "group": "Tokenomics & Roadmap",
+        "icon": "chart-line",
+        "pages": ["tokenomics_roadmap/tokenomics", "tokenomics_roadmap/roadmap"]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "HypurrQuant Bot",
+          "icon": "Robot",
+          "href": "https://t.me/hypurrQuant_bot"
+        },
+        {
+          "anchor": "Community",
+          "icon": "Telegram",
+          "href": "https://t.me/hypurrquant_official"
+        },
+        {
+          "anchor": "Twitter",
+          "icon": "X",
+          "href": "https://x.com/hypurrquant"
+        }
+      ]
+    }
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hypurrquant.hik@gmail.com"
+        "href": "https://t.me/hypurrquant"
       }
     ]
   },
@@ -85,7 +101,7 @@
       "x": "https://x.com/hypurrquant",
       "discord": "https://discord.com/invite/rVMHxC9jct",
       "telegram": "https://t.me/hypurrquant_official",
-      "website" : "https://hypurrquant.com/"
+      "website": "https://hypurrquant.com/"
     }
   }
 }
