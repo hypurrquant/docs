@@ -51,8 +51,7 @@
           "bot_commands/tools/dca",
           "bot_commands/tools/grid-trade",
           "bot_commands/tools/delta-neutral",
-          "bot_commands/tools/lp-vualt"
-
+          "bot_commands/tools/auto-lp-manager"
         ]
       },
       {
