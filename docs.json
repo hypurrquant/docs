@@ -63,6 +63,11 @@
         "group": "Tokenomics & Roadmap",
         "icon": "chart-line",
         "pages": ["tokenomics_roadmap/tokenomics", "tokenomics_roadmap/roadmap"]
+      },
+      {
+        "group": "Privacy & Terms",
+        "icon": "shield",
+        "pages": ["privacy/privacy_policy", "privacy/terms_of_service"]
       }
     ],
     "global": {
