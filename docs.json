@@ -29,7 +29,6 @@
           {
             "group": "Spot Trading",
             "pages": [
-              "bot_commands/spot_trading/spot-buy-strategy",
               "bot_commands/spot_trading/spot-buy",
               "bot_commands/spot_trading/spot-sell"
             ]
@@ -42,16 +41,21 @@
             ]
           },
           {
-            "group": "Utils",
-            "pages": ["bot_commands/utils/wallet", "bot_commands/utils/balance"]
+            "group": "Trading Tools",
+            "pages": ["bot_commands/tools/copy-trading",
+            "bot_commands/tools/dca",
+            "bot_commands/tools/grid-trade",
+            "bot_commands/tools/delta-neutral"]
           },
-        
-          "bot_commands/tools/alarm",
-          "bot_commands/tools/copy-trading",
-          "bot_commands/tools/dca",
-          "bot_commands/tools/grid-trade",
-          "bot_commands/tools/delta-neutral",
-          "bot_commands/tools/auto-lp-manager"
+          {
+            "group": "Wallet Utils",
+            "pages": ["bot_commands/utils/wallet", "bot_commands/utils/balance", "bot_commands/utils/balanceEVM"]
+          },
+          {
+            "group": "Auto LP Manager",
+            "pages": ["bot_commands/lp/auto-lp-manager", "bot_commands/utils/balanceEVM"]
+          }
+          
         ]
       },
       {
