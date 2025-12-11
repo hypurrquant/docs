@@ -21,6 +21,34 @@
         ]
       },
       {
+        "group": "DeFi Platform",
+        "icon": "layer-group",
+        "pages": [
+          "defi_platform/overview",
+          {
+            "group": "Analyze",
+            "pages": [
+              "defi_platform/analyze/position-dashboard",
+              "defi_platform/analyze/curation-service"
+            ]
+          },
+          {
+            "group": "Execute",
+            "pages": [
+              "defi_platform/execute/seamless-minting",
+              "defi_platform/execute/automation-agent"
+            ]
+          },
+          {
+            "group": "Modular",
+            "pages": [
+              "defi_platform/modular/hedge",
+              "defi_platform/modular/collateral-loan"
+            ]
+          }
+        ]
+      },
+      {
         "group": "HypurrQuant BOT",
         "icon" : "robot",
         "pages": [
@@ -57,11 +85,6 @@
           }
           
         ]
-      },
-      {
-        "group": "HyperCash",
-        "icon": "sack-dollar",
-        "pages": ["hypercash/tba"]
       },
       {
         "group": "Tokenomics & Roadmap",
