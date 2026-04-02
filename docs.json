@@ -25,9 +25,11 @@
         "icon": "layer-group",
         "pages": [
           "defi_platform/overview",
+          "defi_platform/getting-started",
           {
             "group": "Analyze",
             "pages": [
+              "defi_platform/analyze/pool-explorer",
               "defi_platform/analyze/position-dashboard",
               "defi_platform/analyze/curation-service"
             ]
@@ -36,6 +38,7 @@
             "group": "Execute",
             "pages": [
               "defi_platform/execute/seamless-minting",
+              "defi_platform/execute/zap-mint",
               "defi_platform/execute/automation-agent"
             ]
           },
@@ -99,6 +102,11 @@
     ],
     "global": {
       "anchors": [
+        {
+          "anchor": "Web App",
+          "icon": "browser",
+          "href": "https://app.hypurrquant.com"
+        },
         {
           "anchor": "HypurrQuant Bot",
           "icon": "Robot",

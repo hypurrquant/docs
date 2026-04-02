@@ -1,0 +1,59 @@
+---
+title: "Pool Explorer"
+description: "Browse and compare LP pools across multiple DEXs"
+keywords: ["Pool", "Explorer", "DEX", "TVL", "APR"]
+---
+
+## Pool Explorer
+
+The Pool Explorer is the main view of the HypurQuant DeFi Platform. It displays all available LP pools across multiple DEXs on Hyperliquid.
+
+![Pool Explorer](/images/defi_platform/pool-list.png)
+
+### Pool List
+
+The pool list table shows the following information for each pool:
+
+| Column | Description |
+|--------|-------------|
+| **Chain** | The blockchain network (currently Hyperliquid) |
+| **Pair** | Token pair and fee tier (e.g., WHYPE/USDC 0.05%) |
+| **DEX** | The decentralized exchange hosting the pool |
+| **TVL** | Total Value Locked in the pool |
+| **APR** | Annual Percentage Rate (estimated yield) |
+
+### Search & Filter
+
+- **Token Search** — Use the search bar to filter pools by token symbol
+- **Favorites** — Click the star icon to bookmark pools for quick access
+
+### Supported DEXs
+
+<CardGroup cols={2}>
+  <Card title="PRJX">
+    Primary DEX on Hyperliquid with the deepest liquidity
+  </Card>
+  <Card title="HyperSwap">
+    Concentrated liquidity DEX on HyperEVM
+  </Card>
+  <Card title="KittenSwap">
+    Community-driven DEX on Hyperliquid
+  </Card>
+  <Card title="Ramses">
+    ve(3,3) DEX with emission rewards
+  </Card>
+</CardGroup>
+
+<Info>
+  Pool data (TVL, APR) is updated in real-time from on-chain data. APR values are estimates based on recent fee revenue and emissions.
+</Info>
+
+### Selecting a Pool
+
+Click on any pool row to open the **LP Minting Panel** on the right side. The panel shows:
+
+- Current price of the token pair
+- Price range chart with liquidity distribution
+- Deposit and minting interface
+
+Next: [Seamless Minting](/defi_platform/execute/seamless-minting) to learn how to create an LP position.

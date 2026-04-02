@@ -1,19 +1,53 @@
 ---
 title: "Seamless Minting"
-description: "One-stop bridge, swap, and mint in a unified UX"
-keywords: ["Minting", "Bridge", "Swap", "LP"]
+description: "Create LP positions with flexible price ranges and one-click minting"
+keywords: ["Minting", "LP", "Price Range", "Concentrated Liquidity"]
 ---
 
 ## Seamless Minting
 
-Enter any pool instantly with a unified user experience.
+Create LP positions with an intuitive interface. Select a pool from the [Pool Explorer](/defi_platform/analyze/pool-explorer), configure your price range, and mint in one click.
 
-### Features
+![LP Minting Panel](/images/defi_platform/minting-panel.png)
 
-- **One-Stop Processing**
-  - Bridge + Swap + Mint in one transaction
-  - No complex multi-step processes
+### LP Minting Panel
 
-- **Unified UX**
-  - Simple interface for all operations
-  - Direct pool entry without friction
+When you select a pool, the minting panel appears on the right side showing:
+
+- **Token Pair & DEX** — The selected pool's pair and DEX name
+- **Current Price** — Real-time price of the token pair
+- **Liquidity Distribution Chart** — Visual representation of existing liquidity across price ranges
+
+### Price Range Selection
+
+Choose how wide your LP position's price range should be:
+
+| Preset | Description | Best For |
+|--------|-------------|----------|
+| **Narrow** | Tight range around current price | Maximum capital efficiency, higher risk of going out of range |
+| **Common** | Balanced range (default) | Good balance of fees and risk |
+| **Wide** | Broad price coverage | Lower risk of going out of range, lower capital efficiency |
+| **Full** | Full range (0 to infinity) | Similar to traditional AMM, lowest risk |
+
+You can also manually set **Min Price** and **Max Price** using the input fields or +/- buttons for fine-grained control.
+
+### Deposit Amounts
+
+1. **Select token direction** — Use the swap button (e.g., WHYPE ↔ HYPE) to choose deposit direction
+2. **Enter amounts** — Input the amount for each token in the pair
+3. **Max button** — Click to use your full wallet balance
+
+<Tip>
+  Don't want to balance both tokens manually? Enable [Zap Mint](/defi_platform/execute/zap-mint) to deposit a single token and let the platform handle the rest.
+</Tip>
+
+### Minting Your Position
+
+1. Select a pool from the Pool Explorer
+2. Choose a price range preset or set custom min/max prices
+3. Enter deposit amounts
+4. Click **Connect Wallet** (if not connected) or **Mint** to create your position
+
+<Warning>
+  Ensure you have sufficient token balances before minting. The platform will show your available balance for each token.
+</Warning>

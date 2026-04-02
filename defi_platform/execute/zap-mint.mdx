@@ -1,0 +1,40 @@
+---
+title: "Zap Mint"
+description: "Single-asset LP entry with automatic token swapping"
+keywords: ["Zap", "Mint", "LP", "Single Asset", "Auto Swap"]
+---
+
+## Zap Mint
+
+Zap Mint allows you to enter any LP pool with a **single token**. The platform automatically swaps and deposits all tokens for maximum LP position size.
+
+![Zap Mint Enabled](/images/defi_platform/zap-mint-panel.png)
+
+### How It Works
+
+1. **Enable Zap Mint** — Toggle the Zap Mint switch in the LP Minting Panel
+2. **Deposit Single Token** — Enter the amount of one token (e.g., only WHYPE)
+3. **Auto Swap** — The platform automatically swaps the optimal ratio
+4. **Mint LP** — Your LP position is created with both tokens
+
+### Without Zap Mint vs. With Zap Mint
+
+| Without Zap Mint | With Zap Mint |
+|-------------------|---------------|
+| Must hold both tokens in the pair | Only need one token |
+| Manually calculate token ratios | Automatic ratio optimization |
+| Multiple transactions (swap + mint) | Single transaction |
+
+### When to Use Zap Mint
+
+- You only hold one of the two tokens in the pair
+- You want to avoid manual swap calculations
+- You want a simplified, one-click LP entry experience
+
+<Warning>
+  Zap Mint involves an automatic swap which may incur slippage. For large positions, consider manually swapping and depositing for better price execution.
+</Warning>
+
+### Supported Pairs
+
+Zap Mint is available for all pools listed in the [Pool Explorer](/defi_platform/analyze/pool-explorer). The swap is executed on the same DEX as the target pool.
