@@ -90,9 +90,9 @@
         ]
       },
       {
-        "group": "Tokenomics & Roadmap",
+        "group": "Roadmap",
         "icon": "chart-line",
-        "pages": ["tokenomics_roadmap/tokenomics", "tokenomics_roadmap/roadmap"]
+        "pages": ["tokenomics_roadmap/roadmap"]
       },
       {
         "group": "Privacy & Terms",
