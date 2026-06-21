@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "HypurrQuant",
-  "description": "HypurrQuant is a trading utility and DeFi onboarding platform powered by Hyperliquid, offering Copy Trading, DCA, Delta Neutral Strategy Vault, Quant Trading features, and assisting with DeFi onboarding.",
+  "description": "HypurrQuant is a self-custodial DeFi terminal for the Hyperliquid ecosystem (HyperEVM): provide liquidity (LP), swap, and trade perps in one place. Compare vetted pools, see your net APR before depositing, and LP in one click using multiple tokens — free to use, zero mint fees, fully non-custodial.",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
