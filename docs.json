@@ -97,7 +97,7 @@
       {
         "group": "Privacy & Terms",
         "icon": "shield",
-        "pages": ["privacy/privacy_policy", "privacy/terms_of_service"]
+        "pages": ["privacy/privacy_policy", "privacy/terms_of_service", "privacy/refund_policy"]
       }
     ],
     "global": {
