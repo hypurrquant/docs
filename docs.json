@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "HypurrQuant",
-  "description": "HypurrQuant is a self-custodial DeFi terminal for the Hyperliquid ecosystem (HyperEVM): provide liquidity (LP), swap, and trade perps in one place. Compare vetted pools, see your net APR before depositing, and LP in one click using multiple tokens — free to use, zero mint fees, fully non-custodial.",
+  "description": "HypurrQuant is a self-custodial crypto wealth management platform — the operating system for crypto wealth. Analyze transparent on-chain yield sources, allocate capital across pools and chains, and automate ongoing management, all while you keep custody. Multi-chain (HyperEVM first-class, plus Base, BNB, Arbitrum and more), with LP, swaps, and perps in one place.",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
